@@ -1,44 +1,63 @@
+
 <!doctype html>
 <html lang="pt-BR">
 <head>
   <meta charset="utf-8">
-  <title>Política de Privacidade – Frota Syncro</title>
+  <title>Política de Privacidade – FrotaSyncro</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Política de Privacidade do app Frota Syncro.">
+  <meta name="description" content="Política de Privacidade do app FrotaSyncro.">
   <meta name="robots" content="index,follow">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
   <style>
-    :root{
-      --tl-azul:#1A237E; --tl-laranja:#FF5722; --texto:#212121; --bg:#ffffff;
-    }
-    *{box-sizing:border-box} body{margin:0;font-family:Poppins,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:var(--texto);background:var(--bg);line-height:1.6}
-    header{background:var(--tl-azul);color:#fff;padding:32px 16px}
-    header .container{max-width:920px;margin:0 auto}
-    h1{margin:0 0 8px;font-size:28px}
-    main{max-width:920px;margin:24px auto;padding:0 16px}
-    h2{color:var(--tl-azul);margin-top:32px}
-    a{color:var(--tl-azul);text-decoration:underline}
-    .badge{display:inline-block;background:var(--tl-laranja);color:#fff;padding:4px 10px;border-radius:999px;font-size:12px;margin-top:8px}
-    footer{border-top:1px solid #eee;margin-top:40px;padding:16px;color:#666;font-size:14px}
+    :root{--azul:#1A237E;--laranja:#FF5722;--texto:#212121;--bg:#ffffff}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Poppins,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:var(--texto);background:var(--bg);line-height:1.65}
+    header{background:linear-gradient(135deg,var(--azul),#0f154f);color:#fff;padding:32px 16px}
+    .container{max-width:980px;margin:0 auto}
+    .brand{display:flex;align-items:center;gap:14px}
+    .brand img{width:44px;height:44px;object-fit:contain;filter:drop-shadow(0 2px 6px rgba(0,0,0,.2))}
+    h1{margin:4px 0 6px;font-size:28px}
+    nav{margin-top:10px}
+    nav a{color:#fff;opacity:.95;margin-right:16px;text-decoration:none;border-bottom:1px solid transparent}
+    nav a:hover{border-bottom-color:#fff}
+    .badge{display:inline-block;background:var(--laranja);color:#fff;padding:4px 10px;border-radius:999px;font-size:12px;margin-top:8px}
+    main{max-width:980px;margin:28px auto;padding:0 16px}
+    h2{color:var(--azul);margin-top:28px}
+    a{color:var(--azul);text-decoration:underline}
+    ul{padding-left:20px}
+    .card{border:1px solid #eef;border-radius:16px;padding:16px;background:#fff;box-shadow:0 2px 10px rgba(0,0,0,.04)}
+    footer{border-top:1px solid #eee;margin-top:40px;padding:16px;color:#666;font-size:14px;text-align:center}
   </style>
 </head>
 <body>
   <header>
     <div class="container">
-      <h1>Política de Privacidade – Frota Syncro</h1>
-      <div class="badge">Última atualização: [2025-11-04]</div>
+      <div class="brand">
+        <!-- Substitua o src abaixo pelo seu logo → /assets/logo-frotasyncro.png -->
+        <img src="https://dummyimage.com/88x88/1A237E/ffffff.png&text=FS" alt="FrotaSyncro">
+        <div>
+          <h1>Política de Privacidade – FrotaSyncro</h1>
+          <div class="badge">Última atualização: [2025-11-04]</div>
+        </div>
+      </div>
+      <nav>
+        <a href="./index.html">Política de Privacidade</a>
+        <a href="./exclusao-conta.html">Exclusão de conta e dados</a>
+      </nav>
     </div>
   </header>
 
-  <main>
-    <p>Bem-vindo ao <strong>Frota Syncro</strong>, desenvolvido por <strong>Transportadora TL Ltda.</strong> Esta Política descreve como coletamos, usamos e protegemos suas informações ao utilizar nosso aplicativo.</p>
+  <main class="container">
+    <div class="card">
+      <p>Bem-vindo ao <strong>FrotaSyncro</strong>, operado por <strong>Transportadora TL</strong>. Esta Política descreve como coletamos, usamos e protegemos suas informações ao utilizar nosso aplicativo.</p>
+    </div>
 
     <h2>1. Informações que coletamos</h2>
     <ul>
       <li><strong>Dados pessoais:</strong> nome, CPF, e-mail, telefone, credenciais de acesso.</li>
       <li><strong>Dados de uso:</strong> logs, versão do app, dispositivo, sistema operacional e métricas técnicas.</li>
-      <li><strong>Localização:</strong> quando necessário para funcionalidades (ex.: rastreamento de entregas/motoristas).</li>
+      <li><strong>Localização:</strong> quando necessário para funcionalidades (ex.: rastreamento/logística).</li>
       <li><strong>Imagens e documentos:</strong> fotos de comprovantes, CNH, documentos de veículos e anexos enviados.</li>
     </ul>
 
@@ -47,23 +66,24 @@
     <ul>
       <li>Autenticação e gestão de acesso de usuários;</li>
       <li>Operação logística (entregas, motoristas e veículos);</li>
-      <li>Comunicações operacionais e de suporte;</li>
-      <li>Relatórios operacionais e de auditoria;</li>
-      <li>Melhoria, segurança e prevenção a fraudes.</li>
+      <li>Comunicações operacionais e suporte;</li>
+      <li>Relatórios e auditoria;</li>
+      <li>Melhoria contínua, segurança e prevenção a fraudes.</li>
     </ul>
 
     <h2>3. Compartilhamento</h2>
     <p>Não vendemos dados. Compartilhamos apenas com <strong>prestadores de serviço</strong> sob contrato, para cumprir <strong>obrigações legais</strong> ou por <strong>ordem de autoridade</strong>.</p>
 
-    <h2>4. Armazenamento, segurança e retenção</h2>
+    <h2>4. Segurança e retenção</h2>
     <ul>
-      <li>Uso de criptografia, controles de acesso e registros de auditoria.</li>
+      <li>Comunicação com o backend via <strong>HTTPS (TLS)</strong> → dados <strong>criptografados em trânsito</strong>.</li>
+      <li>Controles de acesso, registros de auditoria e boas práticas de segurança.</li>
       <li>Retenção pelo tempo necessário às finalidades e exigências legais/contratuais.</li>
-      <li>Descarte seguro ao término do prazo ou mediante solicitação quando aplicável.</li>
+      <li>Descarte seguro ao término do prazo ou mediante solicitação, quando aplicável.</li>
     </ul>
 
     <h2>5. Direitos do titular (LGPD)</h2>
-    <p>Você pode solicitar <strong>acesso, correção, portabilidade, anonimização, bloqueio ou exclusão</strong>, além de informações sobre uso e compartilhamento. Contato abaixo.</p>
+    <p>Você pode solicitar <strong>acesso, correção, portabilidade, anonimização, bloqueio ou exclusão</strong>, além de informações sobre uso e compartilhamento.</p>
 
     <h2>6. Crianças e adolescentes</h2>
     <p>O app não é destinado a menores de 18 anos. Se identificarmos uso indevido, os dados serão removidos.</p>
@@ -73,8 +93,8 @@
 
     <h2>8. Encarregado/DPO e contato</h2>
     <p>
-      <strong>Frota Syncro.</strong><br>
-      Endereço: [inserir endereço completo]<br>
+      <strong>Transportadora TL</strong><br>
+      Endereço: <br>
       E-mail (privacidade/DPO): <a href="mailto:ti.transtl@gmail.com">ti.transtl@gmail.com</a>
     </p>
 
@@ -83,9 +103,104 @@
   </main>
 
   <footer>
-    © <span id="ano"></span> Frota Syncro. — Todos os direitos reservados.
+    © <span id="ano"></span> Transportadora TL — Todos os direitos reservados.
   </footer>
 
   <script>document.getElementById('ano').textContent = new Date().getFullYear();</script>
 </body>
 </html>
+
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <title>Exclusão de Conta e Dados – FrotaSyncro</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Como solicitar a exclusão da conta e dos dados pessoais no FrotaSyncro.">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    :root{--azul:#1A237E;--laranja:#FF5722}
+    body{font-family:Poppins,Arial,sans-serif;margin:0;background:#fff;color:#222;line-height:1.65}
+    header{background:linear-gradient(135deg,var(--azul),#0f154f);color:#fff;padding:30px 15px}
+    .container{max-width:980px;margin:0 auto}
+    .brand{display:flex;align-items:center;gap:14px}
+    .brand img{width:44px;height:44px;object-fit:contain}
+    h1{margin:0}
+    nav{margin-top:10px}
+    nav a{color:#fff;opacity:.95;margin-right:16px;text-decoration:none;border-bottom:1px solid transparent}
+    nav a:hover{border-bottom-color:#fff}
+    main{max-width:980px;margin:28px auto;padding:0 16px}
+    h2{color:var(--azul);margin-top:28px}
+    a{color:var(--azul)}
+    ul{padding-left:20px}
+    .card{border:1px solid #eef;border-radius:16px;padding:16px;background:#fff;box-shadow:0 2px 10px rgba(0,0,0,.04)}
+    footer{border-top:1px solid #eee;margin-top:40px;padding:16px;text-align:center;color:#666;font-size:14px}
+    .hint{background:#fff7ed;border:1px dashed #ffc69f;color:#7a3e00;padding:10px 12px;border-radius:12px;margin:14px 0}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="brand">
+        <img src="https://dummyimage.com/88x88/1A237E/ffffff.png&text=FS" alt="FrotaSyncro">
+        <div>
+          <h1>Exclusão de Conta e Dados – FrotaSyncro</h1>
+        </div>
+      </div>
+      <nav>
+        <a href="./index.html">Política de Privacidade</a>
+        <a href="./exclusao-conta.html">Exclusão de conta e dados</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="card">
+      <p>O <strong>FrotaSyncro</strong> é operado por <strong>[Razão Social da Empresa]</strong>. As credenciais de acesso são gerenciadas pela empresa. Para pedir a exclusão da sua conta ou dos seus dados pessoais, siga as instruções abaixo.</p>
+    </div>
+
+    <h2>1. Como solicitar a exclusão</h2>
+    <p>Envie um e-mail para <a href="mailto:ti.transtl@gmail.com">ti.transtl@gmail.com</a> com o assunto <strong>“Solicitação de exclusão de conta – FrotaSyncro”</strong>, contendo:</p>
+    <ul>
+      <li>Seu nome completo;</li>
+      <li>CPF (ou identificação usada no cadastro);</li>
+      <li>Empresa/filial associada;</li>
+      <li>Motivo da solicitação (opcional).</li>
+    </ul>
+
+    <h2>2. Prazo e confirmação</h2>
+    <p>Ao recebermos sua solicitação válida, processaremos a exclusão em até <strong>30 dias úteis</strong> e enviaremos confirmação por e-mail.</p>
+
+    <h2>3. O que será excluído</h2>
+    <ul>
+      <li>Dados de identificação (nome, CPF, e-mail, telefone);</li>
+      <li>Credenciais de acesso e logs de autenticação;</li>
+      <li>Documentos enviados (ex.: CNH, comprovantes);</li>
+      <li>Dados de localização e histórico operacional vinculados à conta.</li>
+    </ul>
+
+    <h2>4. O que pode ser mantido</h2>
+    <p>Exclusivamente para fins legais/contratuais/auditoria, poderemos manter, pelo prazo exigido:</p>
+    <ul>
+      <li>Registros de entregas, viagens e documentos fiscais já processados;</li>
+      <li>Comprovantes e notas fiscais;</li>
+      <li>Logs exigidos por lei (até 90 dias, quando aplicável).</li>
+    </ul>
+
+    <div class="hint"><strong>Solicitação parcial de dados</strong>: caso deseje solicitar a exclusão de alguns dados específicos sem excluir a conta, descreva isso no e-mail. Avaliaremos tecnicamente e responderemos com as possibilidades.
+    </div>
+
+    <h2>5. Contato</h2>
+    <p>
+      <strong>Transportadora TL</strong><br>
+      Endereço: [Endereço completo da empresa]<br>
+      E-mail (privacidade/DPO): <a href="mailto:ti.transtl@gmail.com">ti.transtl@gmail.com</a>
+    </p>
+  </main>
+
+  <footer>
+    © <script>document.write(new Date().getFullYear());</script> Transportadora TL — Todos os direitos reservados.
+  </footer>
+</body>
+</html>
+
